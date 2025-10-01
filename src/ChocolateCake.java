@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class ChocolateCake {
+class ChocolateCake implements CakeType {
+    @Override
+    public void bakeCake() {
+        System.out.println("Baking a Chocolate Cake!");
+    }
 }

@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class CakeType {
+interface CakeType {
+    void bakeCake();
 }
